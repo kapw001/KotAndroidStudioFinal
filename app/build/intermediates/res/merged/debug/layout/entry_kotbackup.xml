@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.42"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@id/kotEntryTableHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="0.1"
+                android:background="#ffffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/txtHash"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.12"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="@string/slNo"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fffad300" />
+
+                <TextView
+                    android:id="@id/txtDesc"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.55"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="@string/desc"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fffad300" />
+
+                <TextView
+                    android:id="@id/txtQty"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.13"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="@string/qty"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fffad300" />
+
+                <TextView
+                    android:id="@id/txtRate"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="@string/rate"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#fffad300" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/kotScroll"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="0.9"
+                android:background="#ffeeeeee"
+                android:isScrollContainer="true">
+
+                <ScrollView
+                    android:id="@id/scrolls"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TableLayout
+                        android:id="@id/kotEntryTable"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#ffeeeeee" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@id/btnPlus"
+                android:layout_width="100.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/button"
+                android:text="@string/plus" />
+
+            <Button
+                android:id="@id/btnminus"
+                android:layout_width="100.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/button"
+                android:text="@string/minus" />
+
+            <Button
+                android:id="@id/btnQty"
+                android:layout_width="100.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/button"
+                android:text="@string/qty" />
+
+            <Button
+                android:id="@id/btnDel"
+                android:layout_width="100.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/button"
+                android:text="@string/del" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.58"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.8"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="1.0dip"
+                android:layout_marginRight="1.0dip"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@id/btnFav"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginBottom="1.0dip"
+                    android:layout_weight="0.13"
+                    android:background="@drawable/fav_button"
+                    android:text="@string/fav"
+                    android:textAppearance="@android:style/TextAppearance.Medium"
+                    android:textColor="@android:color/white" />
+
+                <ListView
+                    android:id="@id/listFoodGroups"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="0.87"
+                    android:background="@color/group_odd"
+                    android:cacheColorHint="@color/group_odd"
+                    android:divider="#ff000000"
+                    android:dividerHeight="1.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/itemScroll"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.8"
+                android:isScrollContainer="true"
+                android:orientation="horizontal">
+
+                <ScrollView
+                    android:id="@id/scrollViews1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TableLayout
+                        android:id="@id/linearEntry2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@id/btnSave"
+                android:layout_width="140.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/button"
+                android:text="@string/save" />
+
+            <Button
+                android:id="@id/btnPrint"
+                android:layout_width="140.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/button"
+                android:text="@string/print" />
+
+            <Button
+                android:id="@id/btnBill"
+                android:layout_width="140.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/button"
+                android:text="@string/bill" />
+
+            <Button
+                android:id="@id/btnClose"
+                android:layout_width="140.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="4.0dip"
+                android:background="@drawable/button"
+                android:text="@string/close" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

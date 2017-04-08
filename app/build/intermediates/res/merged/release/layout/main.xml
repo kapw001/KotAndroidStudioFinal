@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@id/logoLayout"
+        layout="@layout/logo"
+        android:layout_width="400.0dip"
+        android:layout_height="fill_parent" />
+
+    <TableLayout
+        android:id="@id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_toRightOf="@id/logoLayout"
+        android:paddingTop="100.0dip">
+
+        <TableRow
+            android:id="@id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@id/btnOutlet"
+                android:layout_margin="10.0dip"
+                android:width="275.0dip"
+                android:height="150.0dip"
+                android:background="@drawable/button_bubble"
+                android:text="@string/outlets"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000080"
+                android:textSize="25.0dip" />
+
+            <Button
+                android:id="@id/btnTable"
+                android:layout_margin="10.0dip"
+                android:width="250.0dip"
+                android:height="150.0dip"
+                android:background="@drawable/button_bubble"
+                android:text="@string/tables"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000080"
+                android:textSize="25.0dip" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@id/btnKotEntry"
+                android:layout_gravity="center"
+                android:layout_margin="10.0dip"
+                android:layout_span="2"
+                android:width="275.0dip"
+                android:height="150.0dip"
+                android:background="@drawable/button_bubble"
+                android:text="@string/kotEntry"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000080"
+                android:textSize="25.0dip">"
+            </Button>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

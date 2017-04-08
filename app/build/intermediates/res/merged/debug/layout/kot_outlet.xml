@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <include
+        android:id="@id/logoLayout"
+        layout="@layout/logo"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.35" />
+
+    <ImageView
+        android:id="@id/imgOut"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.05"
+        android:contentDescription="@drawable/outlet_img"
+        android:src="@drawable/outlet_img" />
+
+    <LinearLayout
+        android:id="@id/bodyLayout"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.6"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!-- Editext for Search -->
+        <EditText
+            android:id="@+id/inputSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:drawableEnd="@android:drawable/ic_menu_search"
+            android:drawableRight="@android:drawable/ic_menu_search"
+
+            android:hint="Search products.."
+            android:inputType="text"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@id/listOut"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.8"
+            android:listSelector="@color/highlighted_list_item"
+            android:textColor="#ff000000" />
+
+        <LinearLayout
+            android:id="@id/buttonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.2"
+            android:gravity="center">
+
+            <Button
+                android:id="@id/btnOutletOk"
+                android:layout_width="150.0dip"
+                android:layout_height="70.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/button"
+                android:text="@string/ok"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#ff000080" />
+
+            <Button
+                android:id="@id/btnOutletExit"
+                android:layout_width="150.0dip"
+                android:layout_height="70.0dip"
+                android:background="@drawable/button"
+                android:text="@string/cancel"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#ff000080" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_theme_color1">#ff000000</color>
+    <color name="highlighted_list_item">#fffad300</color>
+    <color name="group_odd">#fffb9a98</color>
+    <color name="group_even">#fff9cbca</color>
+    <color name="item_odd">#ffb8d9f7</color>
+    <color name="item_even">#ff91c8fb</color>
+    <color name="total_bg">#ffececec</color>
+    <color name="tableback">#ececec</color>
+    <color name="row_odd">#e6e6e6</color>
+    <color name="row_even">#aaaaaa</color>
+    <color name="row_ok">#c1d7ef</color>
+</resources>

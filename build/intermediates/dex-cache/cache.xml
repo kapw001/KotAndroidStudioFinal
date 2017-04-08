@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\working kot\KotAndroidStudio\app\libs\ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b457441023b25f0b6bae28c76be982a4e49a8666">
+        <dex dex="E:\working kot\KotAndroidStudio\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-3.6.2-jar-with-dependencies_b1ee2636c137984ddd681d3bf9efb15388dc227b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\working kot\KotAndroidStudio\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="E:\working kot\KotAndroidStudio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ce2eb5786a08e64db6f4da67f99de553610fb15f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Admin\.android\build-cache\09e1a4e9056eadcfe0017d10824ba6132cc1ea24\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\working kot\KotAndroidStudio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6999e241314364f8477109370cd050e32d30503b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\working kot\KotAndroidStudio\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a435dfb65996f71fd9bdb2b156c067e849031e5c">
+        <dex dex="E:\working kot\KotAndroidStudio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d327279ad8ee26e247fded3f09e64c674073eb6b\classes.dex" />
+    </item>
+
+</items>

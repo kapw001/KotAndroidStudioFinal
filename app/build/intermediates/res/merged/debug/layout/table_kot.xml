@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/bodyLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/inputSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableEnd="@android:drawable/ic_menu_search"
+                android:drawableRight="@android:drawable/ic_menu_search"
+                android:hint="Search tables"
+                android:inputType="text" />
+
+            <ListView
+                android:id="@id/tableNames"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.15"
+                android:listSelector="@color/highlighted_list_item" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/kotLayout"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.85"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@id/kotLayoutHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="0.1"
+                android:background="#ffffffff"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tv_1"
+                    style="@style/headerTextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="1.0dip"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.15"
+                    android:text="@string/kotNo" />
+
+                <TextView
+                    android:id="@id/tv_2"
+                    style="@style/headerTextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.1"
+                    android:text="@string/sNo" />
+
+                <TextView
+                    android:id="@id/tv_id"
+                    style="@style/headerTextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.1"
+                    android:text="@string/itemId" />
+
+                <TextView
+                    android:id="@id/tv_des"
+                    style="@style/headerTextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.3"
+                    android:text="@string/desc" />
+
+                <TextView
+                    android:id="@id/tv_qty"
+                    style="@style/headerTextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.05"
+                    android:text="@string/qty" />
+
+                <TextView
+                    android:id="@id/tv_sl"
+                    style="@style/headerTextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.1"
+                    android:text="@string/rate" />
+
+                <TextView
+                    android:id="@id/tv_Time"
+                    style="@style/headerTextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:layout_weight="0.1"
+                    android:text="@string/value" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/kotRefScroll"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="0.9"
+                android:background="#ffeeeeee"
+                android:isScrollContainer="true">
+
+                <ScrollView
+                    android:id="@id/scr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TableLayout
+                        android:id="@id/tableLayoutKot"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffececec" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.2"
+        android:gravity="center|right"
+        android:orientation="horizontal"
+        android:padding="2.0dip">
+
+        <Button
+            android:id="@id/btnTablePrintBill"
+            android:layout_width="wrap_content"
+            android:layout_height="85.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/printBill"
+            android:textColor="#ff000080"
+            android:textSize="@dimen/text_button" />
+
+        <Button
+            android:id="@id/btnTablePrintKot"
+            android:layout_width="wrap_content"
+            android:layout_height="85.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/printKot"
+            android:textColor="#ff000080"
+            android:textSize="@dimen/text_button" />
+
+        <Button
+            android:id="@id/btnTableDeleteEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="85.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/deleteEntry"
+            android:textColor="#ff000080"
+            android:textSize="@dimen/text_button"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@id/btnTableSave"
+            android:layout_width="wrap_content"
+            android:layout_height="85.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/save"
+            android:textColor="#ff000080"
+            android:textSize="@dimen/text_button"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@id/btnTableExit"
+            android:layout_width="wrap_content"
+            android:layout_height="85.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/exit"
+            android:textColor="#ff000080"
+            android:textSize="@dimen/text_button" />
+
+        <Button
+            android:id="@id/btnTableKot"
+            android:layout_width="wrap_content"
+            android:layout_height="85.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/kotEntry"
+            android:textColor="#ff000080"
+            android:textSize="@dimen/text_button" />
+    </LinearLayout>
+</LinearLayout>

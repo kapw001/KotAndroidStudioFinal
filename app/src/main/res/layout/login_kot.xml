@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="horizontal">
+
+    <include
+        android:id="@id/logoLayout"
+        layout="@layout/logo"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.35" />
+
+    <LinearLayout
+        android:id="@id/bodyLayout"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.65"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/settingsLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.2"
+            android:gravity="right">
+
+            <Button
+                android:id="@id/btnSettings"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_margin="10dp"
+                android:layout_marginRight="5.0dip"
+                android:background="@drawable/settings"
+                android:contentDescription="@drawable/button" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@id/tableLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_weight="0.4"
+            android:paddingLeft="20.0dip"
+            android:paddingTop="40.0dip">
+
+            <TableRow
+                android:id="@id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25.0dip">
+
+                <TextView
+                    android:id="@id/textView1"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip"
+                    android:layout_weight="0.3"
+                    android:text="@string/username"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+
+                <EditText
+                    android:id="@id/edtUserName"
+                    android:layout_width="0.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_margin="10.0dip"
+                    android:layout_weight="0.7"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:paddingLeft="5.0dip"
+                    android:paddingRight="5.0dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@id/tableRow2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25.0dip">
+
+                <TextView
+                    android:id="@id/textView2"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip"
+                    android:layout_weight="0.3"
+                    android:text="@string/password"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="#ffffffff" />
+
+                <EditText
+                    android:id="@id/edtPass"
+                    android:layout_width="0.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_margin="10.0dip"
+                    android:layout_weight="0.7"
+                    android:inputType="textPassword"
+                    android:maxLength="15"
+                    android:paddingLeft="5.0dip"
+                    android:paddingRight="5.0dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@id/tableRow3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@id/errorText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff000000"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ffff0000" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@id/buttonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.15"
+            android:gravity="center">
+
+            <Button
+                android:id="@id/btnLogin"
+                android:layout_width="150.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="10.0dip"
+                android:background="@drawable/button"
+                android:text="@string/enter"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#ff000080" />
+
+            <Button
+                android:id="@id/btnLoginCancel"
+                android:layout_width="150.0dip"
+                android:layout_height="70.0dip"
+                android:layout_margin="10.0dip"
+                android:background="@drawable/button"
+                android:text="@string/exit"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#ff000080" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/dummyLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/footerId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/footerText"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/footerId1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/footerText1"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/holo_orange_light" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

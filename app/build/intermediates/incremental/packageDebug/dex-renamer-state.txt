@@ -1,0 +1,7 @@
+#Sat Apr 08 12:16:10 IST 2017
+base.0=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d327279ad8ee26e247fded3f09e64c674073eb6b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ce2eb5786a08e64db6f4da67f99de553610fb15f\\classes.dex
+base.1=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ce2eb5786a08e64db6f4da67f99de553610fb15f
+file.0=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d327279ad8ee26e247fded3f09e64c674073eb6b\\classes.dex
