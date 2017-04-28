@@ -1,7 +1,7 @@
-#Fri Apr 07 12:25:43 IST 2017
-base.0=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_6999e241314364f8477109370cd050e32d30503b
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\ksoap2-android-assembly-3.6.2-jar-with-dependencies_b1ee2636c137984ddd681d3bf9efb15388dc227b\\classes.dex
-base.1=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\ksoap2-android-assembly-3.6.2-jar-with-dependencies_b1ee2636c137984ddd681d3bf9efb15388dc227b
-file.0=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_6999e241314364f8477109370cd050e32d30503b\\classes.dex
+#Fri Apr 28 12:07:07 IST 2017
+base.0=/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/transforms/dex/debug/folders/1000/2/ksoap2-android-assembly-3.6.2-jar-with-dependencies_2b8d2254963b78c764793e8b4289baca9bcd0b1e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_155342262984df2586af2ee6fc0a3e3115ab6bc9/classes.dex
+base.1=/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_155342262984df2586af2ee6fc0a3e3115ab6bc9
+file.0=/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/transforms/dex/debug/folders/1000/2/ksoap2-android-assembly-3.6.2-jar-with-dependencies_2b8d2254963b78c764793e8b4289baca9bcd0b1e/classes.dex

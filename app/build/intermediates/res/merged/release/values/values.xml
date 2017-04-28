@@ -108,8 +108,8 @@
     <item name="txtVersion" type="id">false</item>
     <item name="vacancyIndicator" type="id">false</item>
     <item name="window_title" type="id">false</item>
-    <string name="app_launcher_name">cpKOT Test</string>
-    <string name="app_name">cpKOT Test</string>
+    <string name="app_launcher_name">cpKOT</string>
+    <string name="app_name">cpKOT</string>
     <string name="bill">Bill</string>
     <string name="cancel">Cancel</string>
     <string name="close">Close</string>
@@ -173,7 +173,7 @@
         <item name="android:windowBackground">@color/custom_theme_color1</item>
         <item name="android:windowTitleSize">40.0dip</item>
         <item name="android:windowNoTitle">false</item>
-        
+        <!--<item name="android:windowActionBar">false</item>-->
     </style>
     <style name="contentsTextStyle" parent="@style/headerTextStyle">
         <item name="android:textColor">#ff000000</item>

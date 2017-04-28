@@ -216,6 +216,8 @@ public final class R {
     public static final class style {
         public static final int Buttons=0x7f080000;
         public static final int CodeFont=0x7f080001;
+        /** <item name="android:windowActionBar">false</item>
+         */
         public static final int CustomTheme=0x7f080002;
         public static final int contentsTextStyle=0x7f080003;
         public static final int headerTextStyle=0x7f080004;

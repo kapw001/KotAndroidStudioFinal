@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/lblVersion"
             android:padding="2.0dip"
-            android:text="9.9.15"
+            android:text="9.9.18"
             android:textAppearance="@android:style/TextAppearance.Medium"
             android:textColor="#fffad300" />
     </RelativeLayout>

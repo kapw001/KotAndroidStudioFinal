@@ -1,7 +1,7 @@
--injars 'E:\working kot\KotAndroidStudio\app\build\intermediates\transforms\jarMerging\release\jars\1\1f\combined.jar'
--outjars 'E:\working kot\KotAndroidStudio\app\build\intermediates\multi-dex\release\componentClasses.jar'
+-injars /home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/transforms/jarMerging/release/jars/1/1f/combined.jar
+-outjars /home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/multi-dex/release/componentClasses.jar
 
--libraryjars 'C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\25.0.2\lib\shrinkedAndroid.jar'
+-libraryjars /home/yasar/Android/Sdk/build-tools/25.0.2/lib/shrinkedAndroid.jar
 
 -forceprocessing
 -dontoptimize
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **
 -dontwarn **
--printconfiguration 'E:\working kot\KotAndroidStudio\app\build\intermediates\multi-dex\release\components.flags'
+-printconfiguration /home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/multi-dex/release/components.flags
 
 
 -keep public class * extends android.app.Instrumentation {

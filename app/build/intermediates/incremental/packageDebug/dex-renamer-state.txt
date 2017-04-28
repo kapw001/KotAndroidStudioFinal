@@ -1,7 +1,7 @@
-#Sat Apr 08 12:16:10 IST 2017
-base.0=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d327279ad8ee26e247fded3f09e64c674073eb6b
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ce2eb5786a08e64db6f4da67f99de553610fb15f\\classes.dex
-base.1=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ce2eb5786a08e64db6f4da67f99de553610fb15f
-file.0=E\:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d327279ad8ee26e247fded3f09e64c674073eb6b\\classes.dex
+#Fri Apr 28 12:08:03 IST 2017
+base.0=/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_85f0e1d9eff9e3ba30e0bb818e0fc6024de84c84
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_30cfa31bb59036f33f88f2c8244c14769ed6205c/classes.dex
+base.1=/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_30cfa31bb59036f33f88f2c8244c14769ed6205c
+file.0=/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_85f0e1d9eff9e3ba30e0bb818e0fc6024de84c84/classes.dex

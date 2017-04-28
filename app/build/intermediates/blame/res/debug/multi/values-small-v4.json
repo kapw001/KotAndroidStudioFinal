@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\working kot\\KotAndroidStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+        "outputFile": "/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 93
                 },
                 "from": {
-                    "file": "E:\\working kot\\KotAndroidStudio\\app\\src\\main\\res\\values-small\\dimens.xml",
+                    "file": "/home/yasar/Downloads/new_download/KotAndroidStudioFinal/app/src/main/res/values-small/dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
